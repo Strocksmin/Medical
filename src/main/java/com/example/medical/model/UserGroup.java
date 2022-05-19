@@ -42,3 +42,4 @@ public class UserGroup {
         return id;
     }
 }
+// FIXME сделать группу "врач"

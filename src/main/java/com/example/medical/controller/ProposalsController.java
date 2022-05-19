@@ -61,3 +61,4 @@ public class ProposalsController {
     }
 
 }
+// FIXME улучшить проверку ввода пользователя
