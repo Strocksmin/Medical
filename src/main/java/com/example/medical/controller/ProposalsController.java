@@ -1,21 +1,16 @@
 package com.example.medical.controller;
 
-import com.example.medical.data.ProposalData;
-import com.example.medical.data.UserData;
 import com.example.medical.model.Client;
-import com.example.medical.model.Doctor;
 import com.example.medical.model.Proposal;
 import com.example.medical.service.ClientService;
-import com.example.medical.service.DoctorService;
 import com.example.medical.service.EmailService;
 import com.example.medical.service.ProposalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

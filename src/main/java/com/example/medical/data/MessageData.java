@@ -2,6 +2,7 @@ package com.example.medical.data;
 
 import lombok.Getter;
 import lombok.Setter;
+
 import java.io.Serializable;
 
 @Getter

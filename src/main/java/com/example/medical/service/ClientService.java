@@ -1,9 +1,7 @@
 package com.example.medical.service;
 
 import com.example.medical.model.Client;
-import com.example.medical.model.Proposal;
 import com.example.medical.repository.ClientRepository;
-import com.example.medical.repository.ProposalRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
