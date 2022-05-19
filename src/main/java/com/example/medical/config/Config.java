@@ -22,7 +22,7 @@ public class Config {
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource config = new DriverManagerDataSource();
-        config.setUrl("jdbc:postgresql://localhost:5432/pr15db");
+        config.setUrl("jdbc:postgresql://localhost:5432/medical");
         config.setUsername("postgres");
         config.setPassword("7059314");
         config.setDriverClassName("org.postgresql.Driver");

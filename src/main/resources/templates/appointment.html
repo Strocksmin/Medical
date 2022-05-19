@@ -42,10 +42,9 @@
                                 </div>
                                 <select class="form-select" th:field="*{medic}" style="margin-top: 1em;margin-bottom: 1em;">
                                     <optgroup label="Врачи">
-                                        <option value="1" >Хирург</option>
-                                        <option value="2" >Косметолог</option>
-                                        <option value="3" >Уролог</option>
-                                        <option value="4" >Гинеколог</option>
+                                        <option th:each="d : ${doctors}" th:value="${d.getSpeciality()}"
+                                                th:text="${d.getSpeciality()}"></option>
+
                                     </optgroup>
                                 </select>
                                 <input class="form-control" th:field="*{dateTime}" type="datetime-local" style="margin-bottom: 1em;" min="2022-06-01T10:00" max="2022-07-01T16:00" required="" >

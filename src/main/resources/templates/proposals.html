@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Medical</title>
+    <link rel="stylesheet" th:href="@{assets/bootstrap/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css}">
+    <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css}">
+    <link rel="stylesheet" th:href="@{assets/css/Ludens---1-Index-Table-with-Search--Sort-Filters-v20.css}">
+    <link rel="stylesheet" th:href="@{assets/css/Toggle-Buttons.css}">
+    <link rel="stylesheet" th:href="@{assets/css/untitled.css}">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-shrink py-3" id="mainNav">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-suit-heart">
+                        <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"></path>
+                    </svg></span><span>Медсити</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" th:href="@{/index}">Главная</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" th:href="@{/appointment}">Запись</a></li>
+                </ul><a class="btn btn-primary shadow" role="button" th:href="@{/signup}">Вход</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row justify-content-center" style="margin-top: 7em;">
+        <div class="col-xl-10 col-xxl-9">
+            <div class="card shadow">
+                <div class="card-header d-flex flex-wrap justify-content-center align-items-center justify-content-sm-between gap-3">
+                    <h5 class="display-6 text-nowrap text-capitalize mb-0">Заявки</h5>
+                    <form>
+                        <div class="input-group input-group-sm w-auto"><input class="form-control form-control-sm" type="text"><button class="btn btn-outline-primary btn-sm" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search mb-1">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                                </svg></button></div>
+                    </form>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th style="padding-left: 5em;">Имя</th>
+                                        <th style="padding-left: 5em;">Телефон</th>
+                                        <th style="padding-left: 5em;">Время</th>
+                                        <th style="padding-left: 5em;">Врач</th>
+                                        <th class="text-center">Действие</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr th:each="p, iter : ${proposals}" >
+                                        <td class="text-truncate" style="width: 15em;">
+                                            <input class="form-control" th:id="${iter.index}" type="text" th:value="${p.getName()}" style="margin-top: 0;width: 13em;height: 2em;">
+                                        </td>
+                                        <td class="text-truncate"  style="width: 3em;padding-left: 2em;">
+                                            <input class="form-control" th:id="${iter.index}" type="text" th:value="${p.getPhone()}" style="margin-top: 0;width: 12em;height: 2em;">
+                                        </td>
+                                        <td class="text-truncate"  style="width: 5em;padding-left: 2em;">
+                                            <input class="form-control" th:id="${iter.index}" type="text" th:value="${p.getDateTime()}" style="margin-top: 0;width: 13em;height: 2em;">
+                                        </td>
+                                        <td class="text-truncate"  style="width: 3em; padding-left: 2em;">
+                                            <input class="form-control" th:id="${iter.index}" type="text" th:value="${p.getDoctor()}"  style="margin-top: 0;width: 10em;height: 2em;">
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-success btn-sm" th:id="${iter.index}+100" type="button" th:name="${iter.index}" style="width: 5em;height: 3em;font-size: 0.7rem;padding: 0;">Принять</button>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-danger btn-sm" th:id="${iter.index}+200" type="button" th:name="F+${iter.index}" style="width: 5em;height: 3em;font-size: 0.7rem;padding: 0;">Отказ</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script th:src="@{assets/js/jquery.min.js}"></script>
+    <script th:src="@{assets/bootstrap/js/bootstrap.min.js}"></script>
+    <script th:src="@{assets/js/bold-and-bright.js}"></script>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js}"></script>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js}"></script>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js}"></script>
+    <script th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js}"></script>
+    <script th:src="@{assets/js/Ludens---1-Index-Table-with-Search--Sort-Filters-v20-1.js}"></script>
+    <script th:src="@{assets/js/Ludens---1-Index-Table-with-Search--Sort-Filters-v20.js}"></script>
+    <script>
+        var button1 = document.querySelector(`#${CSS.escape(100)}`);
+        button1.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(0)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/add?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button5 = document.querySelector(`#${CSS.escape(200)}`);
+        button5.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(0)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/del?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button2 = document.querySelector(`#${CSS.escape(101)}`);
+        button2.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(1)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/add?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button6 = document.querySelector(`#${CSS.escape(201)}`);
+        button6.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(1)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/del?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button3 = document.querySelector(`#${CSS.escape(102)}`);
+        button3.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(2)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/add?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button7 = document.querySelector(`#${CSS.escape(202)}`);
+        button7.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(2)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/del?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button4 = document.querySelector(`#${CSS.escape(103)}`);
+        button4.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(3)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/add?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button8 = document.querySelector(`#${CSS.escape(203)}`);
+        button8.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(3)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/del?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button9 = document.querySelector(`#${CSS.escape(104)}`);
+        button9.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(4)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/add?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+
+        var button10 = document.querySelector(`#${CSS.escape(204)}`);
+        button10.addEventListener("click", function() {
+            console.log("Кнопка нажата.");
+            const all = document.querySelectorAll(`#${CSS.escape(4)}`);
+            for (let elem of all) {
+                console.log(elem);
+            }
+            name = all[0].value;
+            phone = all[1].value;
+            propdate = all[2].value;
+            speciality = all[3].value;
+            window.location.href = 'http://localhost:8080/proposals/del?name='+name+'&phone='
+                +phone+'&date='+propdate+'&speciality=' + speciality;
+        });
+    </script>
+</body>
+
+</html>
