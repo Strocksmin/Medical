@@ -7,6 +7,7 @@ import com.example.medical.model.Doctor;
 import com.example.medical.model.Proposal;
 import com.example.medical.service.ClientService;
 import com.example.medical.service.DoctorService;
+import com.example.medical.service.EmailService;
 import com.example.medical.service.ProposalService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -26,6 +27,9 @@ public class ProposalsController {
     @Autowired
     private ClientService clientService;
 
+    @Autowired
+    private EmailService emailService;
+
     @GetMapping("/proposals")
     public String proposals(Model model) {
         List<Proposal> list = proposalService.getProposals().stream().limit(5).collect(Collectors.toList());
@@ -39,7 +43,8 @@ public class ProposalsController {
     {
         String newPhone = phone.replace(' ', '+');
         clientService.addClient(new Client(date, name, newPhone, speciality));
-        //proposalService.findByPhone(newPhone).getEmail();
+        emailService.sendProposalEmail(proposalService.findByPhone(newPhone), speciality, date);
+        proposalService.delete(newPhone);
         System.out.println(name + phone + date + speciality);
         return "redirect:/proposals";
     }
