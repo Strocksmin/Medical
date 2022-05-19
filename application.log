@@ -5400,3 +5400,1518 @@ com.example.medical.controller.ProposalsController#proposals(Model) mapped.
                 – List com.example.medical.service.ProposalService.getProposals() выполнен за 6мс
 1957749 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
                 – Closing JPA EntityManagerFactory for persistence unit 'default'
+1459 [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 348 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+1469 [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1529 [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+2787 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2926 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 125 ms. Found 3 JPA repository interfaces.
+4517 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+4529 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+4530 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+4531 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+4758 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+4759 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 3144 ms
+5432 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+5490 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+5702 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5928 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+6079 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+6657 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+6670 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7324 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+7621 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+8177 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+8233 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+8261 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+8292 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 7.766 seconds (JVM running for 8.975)
+8366 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+8366 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+8368 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+19187 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+772  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+771  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 28272 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+775  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1698 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1787 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+3041 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3053 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3054 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3054 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3247 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3247 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2408 ms
+3782 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3843 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4019 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4265 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4408 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+4953 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4964 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5556 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5830 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6361 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6417 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6453 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6483 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.139 seconds (JVM running for 7.178)
+6998 [RMI TCP Connection(1)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6999 [RMI TCP Connection(1)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7004 [RMI TCP Connection(1)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 5 ms
+30711 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+835  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 18284 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+835  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+839  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1772 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1871 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+3098 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3109 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3110 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3110 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3349 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2445 ms
+4130 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4199 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4416 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4633 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4800 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5341 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5352 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5959 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6227 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6768 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6816 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6883 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6912 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.539 seconds (JVM running for 7.566)
+7505 [RMI TCP Connection(4)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7506 [RMI TCP Connection(4)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7510 [RMI TCP Connection(4)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 4 ms
+12935 [http-nio-8080-exec-5] ERROR org.thymeleaf.TemplateEngine
+                – [THYMELEAF][http-nio-8080-exec-5] Exception processing template "index": Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'messageData' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 56 common frames omitted
+12953 [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+                – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'messageData' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+13104 [http-nio-8080-exec-5] ERROR o.s.b.a.w.s.e.ErrorMvcAutoConfiguration$StaticView
+                – Cannot render error page for request [/] as the response has already been committed. As a result, the response may have the wrong status code.
+123277 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+923  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 5980 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+922  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+926  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1884 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1991 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+3224 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3236 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3237 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3238 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3433 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3434 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2438 ms
+4042 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4097 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4296 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4499 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4650 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5179 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5190 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5830 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6109 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6648 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6700 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6726 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6755 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.354 seconds (JVM running for 7.408)
+7010 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7010 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7014 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+10524 [http-nio-8080-exec-1] INFO  com.example.medical.Aspect
+                – List com.example.medical.service.DoctorService.getDoctors() выполнен за 198мс
+57236 [task-1] ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler
+                – Unexpected exception occurred invoking async method: public void com.example.medical.service.EmailService.sendMessageEmail(com.example.medical.data.MessageData)
+org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.IOException: No MimeMessage content
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:491)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.medical.service.EmailService.sendMessageEmail(EmailService.java:22)
+	at com.example.medical.service.EmailService$$FastClassBySpringCGLIB$$f15c3c0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.medical.Aspect.logExecutionTime(Aspect.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+241952 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+868  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 27992 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+867  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+871  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1879 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+3139 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3152 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3153 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3154 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3361 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3361 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2419 ms
+3911 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3965 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4155 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4492 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4653 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5203 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5215 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5926 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6220 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6775 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6826 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6854 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6881 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.474 seconds (JVM running for 7.521)
+7494 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7495 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7499 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 4 ms
+17142 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine
+                – [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'messageData' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 56 common frames omitted
+17155 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+                – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'messageData' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+17234 [http-nio-8080-exec-1] ERROR o.s.b.a.w.s.e.ErrorMvcAutoConfiguration$StaticView
+                – Cannot render error page for request [/] as the response has already been committed. As a result, the response may have the wrong status code.
+41740 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+984  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 10884 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+988  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+988  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+2006 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2100 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+3408 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3420 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3421 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3421 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3690 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3691 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2640 ms
+4280 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4329 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4509 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4717 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4871 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5454 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5468 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6101 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6372 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6951 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+7005 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+7034 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+7063 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.602 seconds (JVM running for 7.817)
+7278 [RMI TCP Connection(4)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7279 [RMI TCP Connection(4)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7283 [RMI TCP Connection(4)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+21831 [http-nio-8080-exec-1] ERROR org.thymeleaf.TemplateEngine
+                – [THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)
+org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'messageData' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	... 56 common frames omitted
+21847 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+                – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring5.processor.SpringInputGeneralFieldTagProcessor' (template: "index" - line 167, col 73)] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'messageData' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153)
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:903)
+	at org.thymeleaf.spring5.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:227)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:253)
+	at org.thymeleaf.spring5.util.FieldUtils.getBindStatus(FieldUtils.java:227)
+	at org.thymeleaf.spring5.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+21939 [http-nio-8080-exec-1] ERROR o.s.b.a.w.s.e.ErrorMvcAutoConfiguration$StaticView
+                – Cannot render error page for request [/] as the response has already been committed. As a result, the response may have the wrong status code.
+23865 [http-nio-8080-exec-10] INFO  com.example.medical.Aspect
+                – List com.example.medical.service.DoctorService.getDoctors() выполнен за 158мс
+50024 [task-1] ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler
+                – Unexpected exception occurred invoking async method: public void com.example.medical.service.EmailService.sendMessageEmail(com.example.medical.data.MessageData)
+org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.IOException: No MimeMessage content
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:491)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.medical.service.EmailService.sendMessageEmail(EmailService.java:22)
+	at com.example.medical.service.EmailService$$FastClassBySpringCGLIB$$f15c3c0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.medical.Aspect.logExecutionTime(Aspect.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+85269 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+855  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+855  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 29048 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+859  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1839 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+3209 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3223 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3224 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3224 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3429 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3429 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2507 ms
+3988 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4047 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4252 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4481 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4643 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5168 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5179 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5775 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6045 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6691 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6740 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6765 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6793 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.405 seconds (JVM running for 7.533)
+7400 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7401 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7404 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+243718 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+973  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+976  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 24268 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+979  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1845 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1943 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
+3225 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3241 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3242 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3243 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3494 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3494 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2448 ms
+4071 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4123 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4339 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4595 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4770 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5387 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5397 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6012 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6271 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6798 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6854 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6909 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.527 seconds (JVM running for 7.636)
+7516 [RMI TCP Connection(5)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7517 [RMI TCP Connection(5)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7521 [RMI TCP Connection(5)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 4 ms
+27559 [task-1] ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler
+                – Unexpected exception occurred invoking async method: public void com.example.medical.service.EmailService.sendMessageEmail(com.example.medical.data.MessageData)
+org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.IOException: No MimeMessage content
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:491)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.medical.service.EmailService.sendMessageEmail(EmailService.java:22)
+	at com.example.medical.service.EmailService$$FastClassBySpringCGLIB$$f15c3c0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.medical.Aspect.logExecutionTime(Aspect.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+37274 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+866  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+868  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 29404 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+870  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+3104 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3118 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3119 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3119 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3363 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3363 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2430 ms
+3922 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3971 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4138 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4343 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4495 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5031 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5041 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5635 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5931 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6468 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6521 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6548 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6577 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.164 seconds (JVM running for 7.227)
+6942 [RMI TCP Connection(1)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6942 [RMI TCP Connection(1)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+6945 [RMI TCP Connection(1)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+50452 [task-1] ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler
+                – Unexpected exception occurred invoking async method: public void com.example.medical.service.EmailService.sendMessageEmail(com.example.medical.data.MessageData)
+org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: IOException while sending message;
+  nested exception is:
+	java.io.IOException: No MimeMessage content
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:491)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.medical.service.EmailService.sendMessageEmail(EmailService.java:22)
+	at com.example.medical.service.EmailService$$FastClassBySpringCGLIB$$f15c3c0.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.medical.Aspect.logExecutionTime(Aspect.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+143027 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+901  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+909  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 21684 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+911  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1920 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+3288 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3300 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3301 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3301 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3513 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3513 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2509 ms
+4075 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4130 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4370 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4604 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4765 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5351 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5363 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6042 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6348 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6915 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+7004 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+7032 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.625 seconds (JVM running for 7.713)
+7070 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+833  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+833  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 8 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+837  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1788 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1894 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+3245 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3258 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3259 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3260 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3465 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3466 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2560 ms
+4055 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4108 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4266 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4464 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4618 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5155 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5166 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5791 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6057 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6599 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6659 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6690 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6719 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.344 seconds (JVM running for 7.407)
+7286 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7287 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7292 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 5 ms
+22023 [task-1] INFO  com.example.medical.Aspect
+                – void com.example.medical.service.EmailService.sendMessageEmail(MessageData) выполнен за 1116мс
+83574 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+830  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+830  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 26816 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+834  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1727 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1815 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+3121 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3133 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3134 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3135 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3323 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3324 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2420 ms
+3891 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3954 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4133 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4367 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4520 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5113 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5125 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5778 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6062 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6688 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6763 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6788 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6815 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.439 seconds (JVM running for 7.483)
+7337 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7338 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7342 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 4 ms
+30482 [task-1] INFO  com.example.medical.Aspect
+                – void com.example.medical.service.EmailService.sendMessageEmail(MessageData) выполнен за 1271мс
+168366 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+830  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 23148 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+830  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+835  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1740 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1834 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+3092 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3103 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3104 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3105 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3291 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3291 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2389 ms
+3936 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3991 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4170 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4414 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4559 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5101 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5112 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5727 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6000 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6507 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6556 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6593 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6621 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.242 seconds (JVM running for 7.315)
+6883 [RMI TCP Connection(2)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6883 [RMI TCP Connection(2)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+6887 [RMI TCP Connection(2)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 4 ms
+47254 [task-1] INFO  com.example.medical.Aspect
+                – void com.example.medical.service.EmailService.sendMessageEmail(MessageData) выполнен за 1094мс
+108183 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+1047 [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 20624 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+1049 [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+1052 [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+2084 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+3477 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3489 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3490 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3490 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3699 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3700 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2550 ms
+4295 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4353 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4553 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4758 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4914 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5465 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5476 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6071 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6344 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6883 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6934 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6960 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6987 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.419 seconds (JVM running for 7.727)
+7418 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7419 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7423 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 4 ms
+22301 [task-1] INFO  com.example.medical.Aspect
+                – void com.example.medical.service.EmailService.sendMessageEmail(MessageData) выполнен за 1137мс
+142675 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+899  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 28992 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+897  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+901  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1896 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1985 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+3341 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3357 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3358 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3358 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3571 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3571 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2596 ms
+4194 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4259 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4475 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4694 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4838 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5433 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5444 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6103 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6519 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+7150 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+7202 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+7242 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+7271 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.862 seconds (JVM running for 7.895)
+7448 [RMI TCP Connection(2)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+7448 [RMI TCP Connection(2)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+7452 [RMI TCP Connection(2)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+27965 [task-1] INFO  com.example.medical.Aspect
+                – void com.example.medical.service.EmailService.sendMessageEmail(MessageData) выполнен за 1049мс
+159233 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+848  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+848  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 20324 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+853  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+3108 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3119 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3120 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3121 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3316 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3316 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2335 ms
+3971 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4025 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4208 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4416 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4568 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5115 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5126 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5717 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5998 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6550 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6602 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6641 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6668 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.268 seconds (JVM running for 7.316)
+6968 [RMI TCP Connection(1)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6968 [RMI TCP Connection(1)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+6970 [RMI TCP Connection(1)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+67208 [task-1] INFO  com.example.medical.Aspect
+                – void com.example.medical.service.EmailService.sendMessageEmail(MessageData) выполнен за 1142мс
+92765 [http-nio-8080-exec-10] INFO  com.example.medical.Aspect
+                – List com.example.medical.service.DoctorService.getDoctors() выполнен за 186мс
+104491 [http-nio-8080-exec-7] INFO  com.example.medical.Aspect
+                – List com.example.medical.service.ProposalService.getProposals() выполнен за 17мс
+177359 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+849  [main] INFO  c.e.medical.MedicalApplication
+                – Starting MedicalApplication using Java 17 on LAPTOP-4G1RNJEK with PID 4772 (D:\JavaProjects\Learning\Medical\build\classes\java\main started by MrDru in D:\JavaProjects\Learning\Medical)
+849  [background-preinit] INFO  o.h.validator.internal.util.Version
+                – HV000001: Hibernate Validator 6.2.3.Final
+852  [main] INFO  c.e.medical.MedicalApplication
+                – No active profile set, falling back to 1 default profile: "default"
+1832 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1924 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+3222 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3239 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3240 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3241 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.62]
+3436 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3436 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2516 ms
+3984 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4035 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.6.8.Final
+4201 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4402 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4554 [main] WARN  o.h.b.i.InFlightMetadataCollectorImpl
+                – HHH000069: Duplicate generator name banks_seq
+5064 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5074 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5689 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5950 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+                – Adding welcome page template: index
+6489 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver
+                – Exposing 1 endpoint(s) beneath base path '/actuator'
+6542 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6571 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6599 [main] INFO  c.e.medical.MedicalApplication
+                – Started MedicalApplication in 6.201 seconds (JVM running for 7.314)
+6832 [RMI TCP Connection(3)-192.168.1.66] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+6833 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+6836 [RMI TCP Connection(3)-192.168.1.66] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 3 ms
+233034 [http-nio-8080-exec-4] INFO  com.example.medical.Aspect
+                – List com.example.medical.service.ProposalService.getProposals() выполнен за 188мс
+1035359 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'

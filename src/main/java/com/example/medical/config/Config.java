@@ -1,5 +1,6 @@
 package com.example.medical.config;
 
+import com.example.medical.service.EmailService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -34,8 +35,8 @@ public class Config {
         mailSender.setHost("smtp.mail.ru");
         mailSender.setPort(465);
 
-        mailSender.setUsername("mireaspringexample@bk.ru");
-        mailSender.setPassword("SqHZWEqdrfmLyFcYKaYp");
+        mailSender.setUsername("medcityapp@bk.ru");
+        mailSender.setPassword("TJaRsq7WFF722cUYqyNp");
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtps");
@@ -47,9 +48,8 @@ public class Config {
         return mailSender;
     }
 
-    /*
     @Bean
     public EmailService getEmailService(){
         return new EmailService();
-    } */
+    }
 }

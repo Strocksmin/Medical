@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -156,18 +155,26 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <p class="fw-bold text-success mb-2">Наши контакти</p>
+                    <p class="fw-bold text-success mb-2">Наши контакты</p>
                     <h2 class="fw-bold">Напишите нам</h2>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 col-xl-4">
                     <div>
-                        <form class="p-3 p-xl-4" method="post">
-                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Ваше имя"></div>
-                            <div class="mb-3"></div>
-                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="8" placeholder="Текст сообщения"></textarea></div>
-                            <div><button class="btn btn-primary shadow d-block w-100" type="submit">Отправить</button></div>
+                        <form class="p-3 p-xl-4" th:action="@{/sendMessage}" th:object="${messageData}" method="post">
+                            <div class="mb-3">
+                                <input class="form-control" type="text" th:field="*{name}" id="name-1" name="name" placeholder="Ваше имя">
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="text" th:field="*{phone}" name="phone" placeholder="Номер телефона">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="message-1" th:field="*{text}" name="message" rows="6" placeholder="Текст сообщения"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary shadow d-block w-100" type="submit">Отправить</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -202,20 +209,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-5">
-        <div class="container">
-            <div class="border rounded border-white d-flex flex-column justify-content-between align-items-center flex-lg-row bg-primary-gradient p-4 p-lg-5">
-                <div class="text-center text-lg-start py-3 py-lg-1">
-                    <h2 class="fw-bold mb-2">Подпишитесь на нашу рассылку</h2>
-                    <p class="mb-0">Акции и купоны на лечение</p>
-                </div>
-                <form class="d-flex justify-content-center flex-wrap flex-lg-nowrap" method="post">
-                    <div class="my-2"><input class="border rounded-pill shadow-sm form-control" type="email" name="email" placeholder="Ваша почта"></div>
-                    <div class="my-2"><button class="btn btn-primary shadow ms-2" type="submit">Подписаться</button></div>
-                </form>
             </div>
         </div>
     </section>

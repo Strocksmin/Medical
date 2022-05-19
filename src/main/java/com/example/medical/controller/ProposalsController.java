@@ -39,6 +39,7 @@ public class ProposalsController {
     {
         String newPhone = phone.replace(' ', '+');
         clientService.addClient(new Client(date, name, newPhone, speciality));
+        //proposalService.findByPhone(newPhone).getEmail();
         System.out.println(name + phone + date + speciality);
         return "redirect:/proposals";
     }

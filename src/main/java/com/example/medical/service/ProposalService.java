@@ -31,4 +31,8 @@ public class ProposalService {
     public void delete(String phone) {
         proposalRepository.deleteByPhone(phone);
     }
+
+    public Proposal findByPhone(String phone) {
+        return proposalRepository.findByPhone(phone);
+    }
 }
