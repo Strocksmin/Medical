@@ -1,0 +1,8 @@
+com.example.medical
+com.example.medical.config
+com.example.medical.controller
+com.example.medical.data
+com.example.medical.exception
+com.example.medical.model
+com.example.medical.repository
+com.example.medical.service

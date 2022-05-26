@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.example.medical"},{"l":"com.example.medical.config"},{"l":"com.example.medical.controller"},{"l":"com.example.medical.data"},{"l":"com.example.medical.exception"},{"l":"com.example.medical.model"},{"l":"com.example.medical.repository"},{"l":"com.example.medical.service"}];updateSearchResults();
