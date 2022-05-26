@@ -2,6 +2,7 @@ package com.example.medical.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
 import java.util.Set;
@@ -10,7 +11,7 @@ import java.util.Set;
 @Table(name = "user_group")
 @Setter
 @Getter
-public class UserGroup {
+public class UserGroup implements GrantedAuthority {
     @Id
     @SequenceGenerator(name = "user_groups_seq", sequenceName = "user_groups_sequence", allocationSize = 1)
     @GeneratedValue(generator = "user_groups_seq", strategy = GenerationType.SEQUENCE)
@@ -38,6 +39,11 @@ public class UserGroup {
 
     public Long getId() {
         return id;
+    }
+
+    @Override
+    public String getAuthority() {
+        return name;
     }
 }
 // FIXME сделать группу "врач"

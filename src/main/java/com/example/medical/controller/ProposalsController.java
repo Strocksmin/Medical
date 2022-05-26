@@ -25,14 +25,14 @@ public class ProposalsController {
     @Autowired
     private EmailService emailService;
 
-    @GetMapping("/proposals")
+    @GetMapping("proposals")
     public String proposals(Model model) {
         List<Proposal> list = proposalService.getProposals().stream().limit(5).collect(Collectors.toList());
         model.addAttribute("proposals", list);
-        return "/proposals";
+        return "proposals";
     }
 
-    @GetMapping("/proposals/add")
+    @GetMapping("proposals/add")
     public String addProp(@RequestParam String name, @RequestParam String phone,
                           @RequestParam String date, @RequestParam String speciality, Model model)
     {
@@ -41,10 +41,10 @@ public class ProposalsController {
         emailService.sendProposalEmail(proposalService.findByPhone(newPhone), speciality, date);
         proposalService.delete(newPhone);
         System.out.println(name + phone + date + speciality);
-        return "redirect:/proposals";
+        return "redirect:proposals";
     }
 
-    @GetMapping("/proposals/del")
+    @GetMapping("proposals/del")
     public String delProp(@RequestParam String name, @RequestParam String phone,
                           @RequestParam String date, @RequestParam String speciality, Model model)
     {
@@ -52,7 +52,7 @@ public class ProposalsController {
         proposalService.delete(newPhone);
         System.out.println(name + phone + date + speciality);
         System.out.println(newPhone);
-        return "redirect:/proposals";
+        return "redirect:proposals";
     }
 
 }

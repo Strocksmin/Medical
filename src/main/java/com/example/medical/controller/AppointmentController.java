@@ -21,23 +21,23 @@ public class AppointmentController {
     @Autowired
     private ProposalService proposalService;
 
-    @GetMapping("/appointment")
+    @GetMapping("appointment")
     public String appointment(Model model) {
        model.addAttribute("userData", new UserData());
        model.addAttribute("doctors", doctorService.getDoctors());
-       return "/appointment";
+       return "appointment";
     }
 
-    @PostMapping("/appointmentquery")
+    @PostMapping("appointmentquery")
     public String postAppointment(final @Valid UserData userData, final BindingResult bindingResult, final Model model) {
         if(bindingResult.hasErrors()){
             model.addAttribute("registrationForm", userData);
             model.addAttribute("doctors", doctorService.getDoctors());
-            return "/appointment";
+            return "appointment";
         }
         proposalService.addProposal(new Proposal(userData.getDateTime(), userData.getName(),
                 userData.getPhone(), userData.getEmail(), userData.getMedic()));
-        return "/index";
+        return "index";
     }
 }
 // FIXME исправить выбор времени (свой datepicker?)

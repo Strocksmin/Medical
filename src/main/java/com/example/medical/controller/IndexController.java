@@ -14,16 +14,16 @@ public class IndexController {
     @Autowired
     EmailService emailService;
 
-    @GetMapping("/index")
+    @GetMapping("index")
     public String main(Model model) {
         model.addAttribute("messageData", new MessageData());
-        return "/index";
+        return "index";
     }
 
-    @PostMapping("/sendMessage")
+    @PostMapping("sendMessage")
     public String sendMessage(final MessageData messageData, final Model model) {
         System.out.println("Текст = " + messageData.getText());
         emailService.sendMessageEmail(messageData);
-        return "/index";
+        return "index";
     }
 }

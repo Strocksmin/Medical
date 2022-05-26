@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Medical</title>
+    <title>Запись</title>
     <link th:rel="stylesheet" th:href="@{assets/bootstrap/css/bootstrap.min.css}">
     <link th:rel="stylesheet" th:href="@{assets/css/Toggle-Buttons.css}">
     <link th:rel="stylesheet" th:href="@{assets/css/untitled.css}">
@@ -16,12 +16,12 @@
                     </svg></span><span>Медсити</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link" th:href="@{/index}">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" th:href="@{index}">Главная</a></li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>
-                <li class="nav-item"><a class="nav-link active" th:href="@{/appointment}">Запись</a></li>
-            </ul><a class="btn btn-primary shadow" role="button" th:href="@{/login}">Войти</a>
+                <li class="nav-item"><a class="nav-link active" th:href="@{appointment}">Запись</a></li>
+            </ul><a class="btn btn-primary shadow" role="button" th:href="@{login}">Войти</a>
         </div>
     </div>
     </nav>
@@ -32,7 +32,7 @@
                     <div class="card mb-5">
                         <div class="card-body p-sm-5">
                             <h2 class="text-center mb-4">Запись к врачу</h2>
-                            <form th:action="@{/appointmentquery}" th:object="${userData}" method="post">
+                            <form th:action="@{appointmentquery}" th:object="${userData}" method="post">
                                 <div class="mb-3">
                                     <input class="form-control" type="text" th:field="*{name}" id="name-2" name="name" placeholder="Имя">
                                 </div>
